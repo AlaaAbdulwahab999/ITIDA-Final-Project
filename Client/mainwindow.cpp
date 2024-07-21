@@ -16,7 +16,7 @@ MainWindow::MainWindow(QWidget *parent)
     connect(&client, &MyClient::StateChanged, this, &MainWindow::onStateChangedDevice);
     connect(&client, &MyClient::ReadyRead, this, &MainWindow::onReadyReadDevice);
 
-    QPixmap pix("E:\\alaa\\Project_ITIDA\\Client\\BankLogo.png");
+    QPixmap pix("E:\\Project_ITIDA\\Client\\BankLogo.png");
     ui->Label_picture->setPixmap(pix.scaled(ui->Label_picture->size(), Qt::KeepAspectRatio, Qt::SmoothTransformation));
 
     ui->Bank_System_widget->setTabEnabled(1, false);
