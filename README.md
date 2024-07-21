@@ -1,6 +1,6 @@
-# ITIDA-Final-Project
 
 ## Bank System
+![core-banking-blog-banner](https://github.com/user-attachments/assets/b7371a44-cd92-46a8-b7fd-3e270c980a4b)
 
 ### Overview
 
@@ -43,8 +43,7 @@ The system follows a client-server architecture. The client application is a GUI
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/yourusername/bank-system.git
-    cd bank-system
+    git clone < <repository-url>
     ```
 
 2. Build the project:
@@ -55,10 +54,19 @@ The system follows a client-server architecture. The client application is a GUI
 
 3. Run the server:
     ```bash
-    ./server_application
+    ./server.exe
     ```
 
 4. Run the client:
     ```bash
-    ./client_application
+    ./client.exe
     ```
+
+
+### Usage
+
+1. Start the server application.
+2. Start the client application.
+3. Log in as an admin or a user.
+4. Perform banking operations based on the logged-in role.
+5. Log out and exit the application when done.
