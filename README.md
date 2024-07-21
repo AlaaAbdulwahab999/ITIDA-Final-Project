@@ -32,5 +32,9 @@ The system follows a client-server architecture. The client application is a GUI
 
 ## Sequence Diagram
 ![Bank System Sequence Diagram](Completesequancediagram.png)
+## Class Diagram
+![Bank System Class Diagram](Completeclassdiagram.png)
+## State Diagram
+![Bank System State Diagram](Bank Systemstatediagram.png)
 =======
 >>>>>>> a0d54ff08b62a64581ef1faeca8556a54fb58b58
