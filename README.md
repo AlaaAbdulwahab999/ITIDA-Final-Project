@@ -9,12 +9,12 @@ The Bank System is a client-server application designed to manage banking operat
 ### Features
 
 #### Admin Role
-- View account numbers for users
-- Check user balances
-- View transaction history of users
+- View the account number of a client.
+- View the balance for a client.
+- View the transaction history of a client.
 - Create new users
 - Update user data
-- Delete users
+- Delete user
 - View entire bank database
 
 #### User Role
@@ -26,15 +26,39 @@ The Bank System is a client-server application designed to manage banking operat
 - Transfer money
 
 ### Architecture
-
 The system follows a client-server architecture. The client application is a GUI application built with Qt/C++, while the server application is a console application handling multiple client requests using threads. The server uses JSON files for user data and logging.
-
-
-## Class Diagram
-![complete-class-diagram](https://github.com/user-attachments/assets/33d45f23-4b43-4d3d-b202-3298149f957f)
 
 ## Sequence Diagram
 ![Complete-sequance-diagram](https://github.com/user-attachments/assets/369b1e28-eec1-44e5-8d42-eb4467f3dfb5)
 
-## State Diagram
-![Complete-state-diagram](https://github.com/user-attachments/assets/520d8919-5f60-4550-bf82-87248b69873c)
+### Installation
+
+#### Prerequisites
+- Qt6
+- C++ compiler
+- JSON library
+- Git (optional, for version control)
+
+#### Steps
+
+1. Clone the repository:
+    ```bash
+    git clone https://github.com/yourusername/bank-system.git
+    cd bank-system
+    ```
+
+2. Build the project:
+    ```bash
+    qmake
+    make
+    ```
+
+3. Run the server:
+    ```bash
+    ./server_application
+    ```
+
+4. Run the client:
+    ```bash
+    ./client_application
+    ```
