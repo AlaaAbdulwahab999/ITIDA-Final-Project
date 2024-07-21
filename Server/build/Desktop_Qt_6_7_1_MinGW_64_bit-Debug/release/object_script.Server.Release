@@ -1,0 +1,11 @@
+release/AdminHandler.o
+release/DataBaseHandler.o
+release/MyServer.o
+release/MyServerHandler.o
+release/UserHandler.o
+release/main.o
+release/moc_AdminHandler.o
+release/moc_DataBaseHandler.o
+release/moc_MyServer.o
+release/moc_MyServerHandler.o
+release/moc_UserHandler.o

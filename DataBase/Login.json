@@ -1,0 +1,32 @@
+[
+    {
+        "accountNumber": "654321",
+        "age": "25",
+        "balance": 38770,
+        "email": "alaaabdulwahab022@gmail.com",
+        "fullname": "Alaa Abdulwahab",
+        "password": "1234",
+        "role": "admin",
+        "username": "Alaa"
+    },
+    {
+        "accountNumber": "123456",
+        "age": "45",
+        "balance": 700,
+        "email": "alaaabdulwahab022@gmail.com",
+        "fullname": "asmaa",
+        "password": "1234",
+        "role": "user",
+        "username": "Asmaa"
+    },
+    {
+        "accountNumber": "124679",
+        "age": "20",
+        "balance": 700,
+        "email": "alaaabdulwahab022@gmail.com",
+        "fullname": "Aya Abdulwahab",
+        "password": "1234",
+        "role": "user",
+        "username": "Aya"
+    }
+]

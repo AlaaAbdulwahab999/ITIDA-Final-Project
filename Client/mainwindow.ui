@@ -1,0 +1,2125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>690</width>
+    <height>674</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QGroupBox" name="Bank_System">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>691</width>
+      <height>631</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">
+background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 rgba(0, 49, 83, 255), stop:1 rgba(50, 100, 150, 255));
+</string>
+    </property>
+    <property name="title">
+     <string>Bank System</string>
+    </property>
+    <widget class="QTabWidget" name="Bank_System_widget">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>20</y>
+       <width>651</width>
+       <height>551</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 rgba(0, 49, 83, 255), stop:1 rgba(50, 100, 150, 255));
+color: rgb(0, 0, 0);</string>
+     </property>
+     <property name="currentIndex">
+      <number>3</number>
+     </property>
+     <widget class="QWidget" name="tab">
+      <attribute name="title">
+       <string>Welcome</string>
+      </attribute>
+      <widget class="QLabel" name="label_2">
+       <property name="geometry">
+        <rect>
+         <x>370</x>
+         <y>0</y>
+         <width>271</width>
+         <height>551</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 rgba(0, 49, 83, 255), stop:1 rgba(50, 100, 150, 255));
+color: rgb(255, 255, 255);
+font: 700 20pt &quot;Segoe UI&quot;;</string>
+       </property>
+       <property name="text">
+        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;br/&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;br/&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;Bank System &lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;br/&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;br/&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;br/&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;br/&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="Label_picture">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>90</y>
+         <width>381</width>
+         <height>461</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true"/>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label">
+       <property name="geometry">
+        <rect>
+         <x>440</x>
+         <y>420</y>
+         <width>161</width>
+         <height>51</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: rgb(255, 255, 255);
+font: 700 12pt &quot;Segoe UI&quot;;</string>
+       </property>
+       <property name="text">
+        <string>Alaa Abdul Wahab</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_3">
+       <property name="geometry">
+        <rect>
+         <x>-10</x>
+         <y>0</y>
+         <width>391</width>
+         <height>91</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font: 700 20pt &quot;Segoe UI&quot;;
+color: rgb(255, 255, 255);</string>
+       </property>
+       <property name="text">
+        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;Welcome to Bank System &lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pbStart">
+       <property name="geometry">
+        <rect>
+         <x>450</x>
+         <y>240</y>
+         <width>111</width>
+         <height>51</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">border-radius: 10px;  /* Adjust this value to control the curvature */
+    border: 2px solid #1E90FF;  /* Border color: Dodger Blue */
+    padding: 5px;  /* Adjust padding as needed */
+    font: 600 italic 20pt &quot;Segoe UI&quot;;  /* Font settings */
+    color: rgb(255, 255, 255);  /* Text color */</string>
+       </property>
+       <property name="text">
+        <string>Start</string>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QWidget" name="tab_4">
+      <attribute name="title">
+       <string>Login</string>
+      </attribute>
+      <widget class="QStackedWidget" name="stackedWidget">
+       <property name="geometry">
+        <rect>
+         <x>40</x>
+         <y>10</y>
+         <width>581</width>
+         <height>511</height>
+        </rect>
+       </property>
+       <property name="currentIndex">
+        <number>0</number>
+       </property>
+       <widget class="QWidget" name="page">
+        <widget class="QPushButton" name="pdConnect">
+         <property name="geometry">
+          <rect>
+           <x>140</x>
+           <y>260</y>
+           <width>151</width>
+           <height>41</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">border-radius: 10px;  /* Adjust this value to control the curvature */
+    border: 2px solid #1E90FF;  /* Border color: Dodger Blue */
+background-color: rgb(255, 255, 255);
+    padding: 5px;  /* Adjust padding as needed */
+    font: 600 italic 12pt &quot;Segoe UI&quot;;  /* Font settings */
+    color: rgb(0, 0, 0);  /* Text color */
+</string>
+         </property>
+         <property name="text">
+          <string>Connect </string>
+         </property>
+        </widget>
+        <widget class="QWidget" name="layoutWidget_2">
+         <property name="geometry">
+          <rect>
+           <x>120</x>
+           <y>110</y>
+           <width>371</width>
+           <height>131</height>
+          </rect>
+         </property>
+         <layout class="QVBoxLayout" name="verticalLayout_3">
+          <item>
+           <layout class="QHBoxLayout" name="horizontalLayout_5">
+            <item>
+             <widget class="QLabel" name="label_10">
+              <property name="styleSheet">
+               <string notr="true">font: 900 italic 14pt &quot;Segoe UI&quot;;
+</string>
+              </property>
+              <property name="text">
+               <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; color:#ffffff;&quot;&gt;Enter IP:&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QLineEdit" name="leIP_2">
+              <property name="styleSheet">
+               <string notr="true">background-color: rgb(255, 255, 255);
+font: 700 12pt &quot;Segoe UI&quot;;</string>
+              </property>
+              <property name="inputMask">
+               <string>000.000.000.000</string>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </item>
+          <item>
+           <layout class="QHBoxLayout" name="horizontalLayout_6">
+            <item>
+             <widget class="QLabel" name="label_11">
+              <property name="styleSheet">
+               <string notr="true">font: 900 italic 14pt &quot;Segoe UI&quot;;
+
+color: rgb(255, 255, 255);
+</string>
+              </property>
+              <property name="text">
+               <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; color:#ffffff;&quot;&gt;Enter Port:&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QLineEdit" name="LePort_2">
+              <property name="styleSheet">
+               <string notr="true">background-color: rgb(255, 255, 255);
+font: 700 12pt &quot;Segoe UI&quot;;</string>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </item>
+         </layout>
+        </widget>
+        <widget class="QPushButton" name="pdDisconnect">
+         <property name="geometry">
+          <rect>
+           <x>310</x>
+           <y>260</y>
+           <width>161</width>
+           <height>41</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">border-radius: 10px;  /* Adjust this value to control the curvature */
+    border: 2px solid #1E90FF;  /* Border color: Dodger Blue */
+background-color: rgb(255, 255, 255);
+    padding: 5px;  /* Adjust padding as needed */
+    font: 600 italic 12pt &quot;Segoe UI&quot;;  /* Font settings */
+    color: rgb(0, 0, 0);  /* Text color */</string>
+         </property>
+         <property name="text">
+          <string>Disconnect</string>
+         </property>
+        </widget>
+       </widget>
+       <widget class="QWidget" name="page_2">
+        <widget class="QWidget" name="layoutWidget">
+         <property name="geometry">
+          <rect>
+           <x>80</x>
+           <y>100</y>
+           <width>432</width>
+           <height>181</height>
+          </rect>
+         </property>
+         <layout class="QVBoxLayout" name="verticalLayout_2">
+          <item>
+           <layout class="QHBoxLayout" name="horizontalLayout_3">
+            <item>
+             <widget class="QLabel" name="label_6">
+              <property name="styleSheet">
+               <string notr="true">font: 900 italic 14pt &quot;Segoe UI&quot;;
+</string>
+              </property>
+              <property name="text">
+               <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; color:#ffffff;&quot;&gt;Enter Name:&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QLineEdit" name="usernameLineEdit">
+              <property name="styleSheet">
+               <string notr="true">background-color: rgb(255, 255, 255);
+font: 900 13pt &quot;Segoe UI&quot;;</string>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </item>
+          <item>
+           <layout class="QHBoxLayout" name="horizontalLayout_4">
+            <item>
+             <widget class="QLabel" name="label_7">
+              <property name="styleSheet">
+               <string notr="true">font: 900 italic 14pt &quot;Segoe UI&quot;;</string>
+              </property>
+              <property name="text">
+               <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; color:#ffffff;&quot;&gt;Enter Password:&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QLineEdit" name="passwordLineEdit">
+              <property name="styleSheet">
+               <string notr="true">background-color: rgb(255, 255, 255);
+font: 900 13pt &quot;Segoe UI&quot;;</string>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </item>
+         </layout>
+        </widget>
+        <widget class="QPushButton" name="pdLogin">
+         <property name="geometry">
+          <rect>
+           <x>200</x>
+           <y>300</y>
+           <width>171</width>
+           <height>41</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">border-radius: 10px;  /* Adjust this value to control the curvature */
+    border: 2px solid #1E90FF;  /* Border color: Dodger Blue */
+background-color: rgb(255, 255, 255);
+    padding: 5px;  /* Adjust padding as needed */
+    font: 600 italic 12pt &quot;Segoe UI&quot;;  /* Font settings */
+    color: rgb(0, 0, 0);  /* Text color */</string>
+         </property>
+         <property name="text">
+          <string>Login</string>
+         </property>
+        </widget>
+       </widget>
+      </widget>
+     </widget>
+     <widget class="QWidget" name="tab_2">
+      <attribute name="title">
+       <string>Admin</string>
+      </attribute>
+      <widget class="QStackedWidget" name="stackedWidgetAdmin">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>50</y>
+         <width>631</width>
+         <height>441</height>
+        </rect>
+       </property>
+       <property name="currentIndex">
+        <number>1</number>
+       </property>
+       <widget class="QWidget" name="page_3">
+        <widget class="QPushButton" name="pBGetUserAccuntNumberAdmin">
+         <property name="geometry">
+          <rect>
+           <x>40</x>
+           <y>50</y>
+           <width>211</width>
+           <height>51</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">border-radius: 10px;  /* Adjust this value to control the curvature */
+    border: 2px solid #1E90FF;  /* Border color: Dodger Blue */
+background-color: rgb(255, 255, 255);
+    padding: 5px;  /* Adjust padding as needed */
+    font: 600 italic 12pt &quot;Segoe UI&quot;;  /* Font settings */
+    color: rgb(0, 0, 0);  /* Text color */</string>
+         </property>
+         <property name="text">
+          <string>Get User Accunt Number</string>
+         </property>
+        </widget>
+        <widget class="QPushButton" name="Pd_GetUserBalanceAdmin">
+         <property name="geometry">
+          <rect>
+           <x>40</x>
+           <y>180</y>
+           <width>211</width>
+           <height>51</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">border-radius: 10px;  /* Adjust this value to control the curvature */
+    border: 2px solid #1E90FF;  /* Border color: Dodger Blue */
+background-color: rgb(255, 255, 255);
+    padding: 5px;  /* Adjust padding as needed */
+    font: 600 italic 12pt &quot;Segoe UI&quot;;  /* Font settings */
+    color: rgb(0, 0, 0);  /* Text color */</string>
+         </property>
+         <property name="text">
+          <string>Get User Balance</string>
+         </property>
+        </widget>
+        <widget class="QPushButton" name="Pd_GetUserTransctionHistoryAdmin">
+         <property name="geometry">
+          <rect>
+           <x>40</x>
+           <y>300</y>
+           <width>211</width>
+           <height>51</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">border-radius: 10px;  /* Adjust this value to control the curvature */
+    border: 2px solid #1E90FF;  /* Border color: Dodger Blue */
+background-color: rgb(255, 255, 255);
+    padding: 5px;  /* Adjust padding as needed */
+    font: 600 italic 12pt &quot;Segoe UI&quot;;  /* Font settings */
+    color: rgb(0, 0, 0);  /* Text color */</string>
+         </property>
+         <property name="text">
+          <string>Get User Transction History</string>
+         </property>
+        </widget>
+        <widget class="QPushButton" name="Pd_AddNewUserAdmin">
+         <property name="geometry">
+          <rect>
+           <x>360</x>
+           <y>50</y>
+           <width>211</width>
+           <height>51</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">border-radius: 10px;  /* Adjust this value to control the curvature */
+    border: 2px solid #1E90FF;  /* Border color: Dodger Blue */
+background-color: rgb(255, 255, 255);
+    padding: 5px;  /* Adjust padding as needed */
+    font: 600 italic 12pt &quot;Segoe UI&quot;;  /* Font settings */
+    color: rgb(0, 0, 0);  /* Text color */</string>
+         </property>
+         <property name="text">
+          <string>Add New User </string>
+         </property>
+        </widget>
+        <widget class="QPushButton" name="Pd_UpdateUserDataAdmin">
+         <property name="geometry">
+          <rect>
+           <x>360</x>
+           <y>180</y>
+           <width>211</width>
+           <height>51</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">border-radius: 10px;  /* Adjust this value to control the curvature */
+    border: 2px solid #1E90FF;  /* Border color: Dodger Blue */
+background-color: rgb(255, 255, 255);
+    padding: 5px;  /* Adjust padding as needed */
+    font: 600 italic 12pt &quot;Segoe UI&quot;;  /* Font settings */
+    color: rgb(0, 0, 0);  /* Text color */</string>
+         </property>
+         <property name="text">
+          <string>Update User Data</string>
+         </property>
+        </widget>
+        <widget class="QPushButton" name="Pd_DeleteUserAdmin">
+         <property name="geometry">
+          <rect>
+           <x>360</x>
+           <y>300</y>
+           <width>211</width>
+           <height>51</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">border-radius: 10px;  /* Adjust this value to control the curvature */
+    border: 2px solid #1E90FF;  /* Border color: Dodger Blue */
+background-color: rgb(255, 255, 255);
+    padding: 5px;  /* Adjust padding as needed */
+    font: 600 italic 12pt &quot;Segoe UI&quot;;  /* Font settings */
+    color: rgb(0, 0, 0);  /* Text color */</string>
+         </property>
+         <property name="text">
+          <string>Delete User</string>
+         </property>
+        </widget>
+        <widget class="QPushButton" name="pbGet_ViewBankDatabase">
+         <property name="geometry">
+          <rect>
+           <x>190</x>
+           <y>390</y>
+           <width>211</width>
+           <height>51</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">border-radius: 10px;  /* Adjust this value to control the curvature */
+    border: 2px solid #1E90FF;  /* Border color: Dodger Blue */
+background-color: rgb(255, 255, 255);
+    padding: 5px;  /* Adjust padding as needed */
+    font: 600 italic 12pt &quot;Segoe UI&quot;;  /* Font settings */
+    color: rgb(0, 0, 0);  /* Text color */</string>
+         </property>
+         <property name="text">
+          <string>View Bank Database</string>
+         </property>
+        </widget>
+       </widget>
+       <widget class="QWidget" name="page_5">
+        <widget class="QGroupBox" name="groupBox_7">
+         <property name="geometry">
+          <rect>
+           <x>140</x>
+           <y>120</y>
+           <width>301</width>
+           <height>141</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">color: rgb(255, 255, 255);</string>
+         </property>
+         <property name="title">
+          <string>Acc Number</string>
+         </property>
+         <widget class="QPushButton" name="pbGetAccNumAdmin">
+          <property name="geometry">
+           <rect>
+            <x>50</x>
+            <y>70</y>
+            <width>171</width>
+            <height>31</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">border-radius: 10px;  /* Adjust this value to control the curvature */
+    border: 2px solid #1E90FF;  /* Border color: Dodger Blue */
+background-color: rgb(255, 255, 255);
+    padding: 5px;  /* Adjust padding as needed */
+    font: 600 italic 12pt &quot;Segoe UI&quot;;  /* Font settings */
+    color: rgb(0, 0, 0);  /* Text color */</string>
+          </property>
+          <property name="text">
+           <string>Get Account Number</string>
+          </property>
+         </widget>
+         <widget class="QLineEdit" name="lineEditUserNameAdmin">
+          <property name="geometry">
+           <rect>
+            <x>110</x>
+            <y>30</y>
+            <width>131</width>
+            <height>31</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">background-color: rgb(255, 255, 255);
+font: 900 11pt &quot;Segoe UI&quot;;
+color: rgb(0, 0, 0);</string>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_20">
+          <property name="geometry">
+           <rect>
+            <x>20</x>
+            <y>30</y>
+            <width>81</width>
+            <height>31</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">color: rgb(255, 255, 255);
+font: 600 italic 12pt &quot;Segoe UI&quot;;</string>
+          </property>
+          <property name="text">
+           <string>Username:</string>
+          </property>
+         </widget>
+        </widget>
+       </widget>
+       <widget class="QWidget" name="page_6">
+        <widget class="QGroupBox" name="groupBox_8">
+         <property name="geometry">
+          <rect>
+           <x>170</x>
+           <y>150</y>
+           <width>281</width>
+           <height>141</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">color: rgb(255, 255, 255);</string>
+         </property>
+         <property name="title">
+          <string>Balance</string>
+         </property>
+         <widget class="QPushButton" name="pbGet_BalanceAdmin">
+          <property name="geometry">
+           <rect>
+            <x>70</x>
+            <y>90</y>
+            <width>141</width>
+            <height>41</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">border-radius: 10px;  /* Adjust this value to control the curvature */
+    border: 2px solid #1E90FF;  /* Border color: Dodger Blue */
+background-color: rgb(255, 255, 255);
+    padding: 5px;  /* Adjust padding as needed */
+    font: 600 italic 12pt &quot;Segoe UI&quot;;  /* Font settings */
+    color: rgb(0, 0, 0);  /* Text color */</string>
+          </property>
+          <property name="text">
+           <string>Get_Balance</string>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_9">
+          <property name="geometry">
+           <rect>
+            <x>10</x>
+            <y>30</y>
+            <width>131</width>
+            <height>31</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">color: rgb(255, 255, 255);
+font: 600 italic 12pt &quot;Segoe UI&quot;;</string>
+          </property>
+          <property name="text">
+           <string>Account Number:</string>
+          </property>
+         </widget>
+         <widget class="QLineEdit" name="acc_numberLineEditBalanceAdmin">
+          <property name="geometry">
+           <rect>
+            <x>140</x>
+            <y>30</y>
+            <width>121</width>
+            <height>31</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">background-color: rgb(255, 255, 255);
+font: 900 11pt &quot;Segoe UI&quot;;
+color: rgb(0, 0, 0);</string>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+        </widget>
+       </widget>
+       <widget class="QWidget" name="page_7">
+        <widget class="QGroupBox" name="groupBox_9">
+         <property name="geometry">
+          <rect>
+           <x>160</x>
+           <y>130</y>
+           <width>271</width>
+           <height>181</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">color: rgb(255, 255, 255);</string>
+         </property>
+         <property name="title">
+          <string>Transaction History</string>
+         </property>
+         <widget class="QPushButton" name="pbGet_TransactionHistoryAdmin">
+          <property name="geometry">
+           <rect>
+            <x>10</x>
+            <y>120</y>
+            <width>241</width>
+            <height>41</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">border-radius: 10px;  /* Adjust this value to control the curvature */
+    border: 2px solid #1E90FF;  /* Border color: Dodger Blue */
+background-color: rgb(255, 255, 255);
+    padding: 5px;  /* Adjust padding as needed */
+    font: 600 italic 12pt &quot;Segoe UI&quot;;  /* Font settings */
+    color: rgb(0, 0, 0);  /* Text color */</string>
+          </property>
+          <property name="text">
+           <string>Get Transaction History</string>
+          </property>
+         </widget>
+         <widget class="QLineEdit" name="acc_numberLineEditHistoryAdmin">
+          <property name="geometry">
+           <rect>
+            <x>140</x>
+            <y>40</y>
+            <width>111</width>
+            <height>31</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">background-color: rgb(255, 255, 255);
+font: 900 11pt &quot;Segoe UI&quot;;
+color: rgb(0, 0, 0);</string>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_19">
+          <property name="geometry">
+           <rect>
+            <x>10</x>
+            <y>40</y>
+            <width>131</width>
+            <height>31</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">color: rgb(255, 255, 255);
+font: 600 italic 12pt &quot;Segoe UI&quot;;</string>
+          </property>
+          <property name="text">
+           <string>Account Number:</string>
+          </property>
+         </widget>
+         <widget class="QLineEdit" name="Pd_countTransactionHistoryAdmin">
+          <property name="geometry">
+           <rect>
+            <x>110</x>
+            <y>80</y>
+            <width>131</width>
+            <height>22</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">background-color: rgb(255, 255, 255);
+font: 900 11pt &quot;Segoe UI&quot;;
+color: rgb(0, 0, 0);</string>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_33">
+          <property name="geometry">
+           <rect>
+            <x>40</x>
+            <y>80</y>
+            <width>51</width>
+            <height>21</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">color: rgb(255, 255, 255);
+font: 600 italic 12pt &quot;Segoe UI&quot;;</string>
+          </property>
+          <property name="text">
+           <string>Count</string>
+          </property>
+         </widget>
+        </widget>
+       </widget>
+       <widget class="QWidget" name="page_8">
+        <widget class="QGroupBox" name="groupBox_12">
+         <property name="geometry">
+          <rect>
+           <x>160</x>
+           <y>100</y>
+           <width>271</width>
+           <height>281</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">color: rgb(255, 255, 255);</string>
+         </property>
+         <property name="title">
+          <string>Add User</string>
+         </property>
+         <widget class="QPushButton" name="pbGet_AddUser">
+          <property name="geometry">
+           <rect>
+            <x>50</x>
+            <y>230</y>
+            <width>171</width>
+            <height>31</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">border-radius: 10px;  /* Adjust this value to control the curvature */
+    border: 2px solid #1E90FF;  /* Border color: Dodger Blue */
+background-color: rgb(255, 255, 255);
+    padding: 5px;  /* Adjust padding as needed */
+    font: 600 italic 12pt &quot;Segoe UI&quot;;  /* Font settings */
+    color: rgb(0, 0, 0);  /* Text color */</string>
+          </property>
+          <property name="text">
+           <string>Add User</string>
+          </property>
+         </widget>
+         <widget class="QLineEdit" name="lineEditUserUserNameADD">
+          <property name="geometry">
+           <rect>
+            <x>110</x>
+            <y>60</y>
+            <width>131</width>
+            <height>21</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">background-color: rgb(255, 255, 255);
+font: 900 10pt &quot;Segoe UI&quot;;
+color: rgb(0, 0, 0);</string>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_26">
+          <property name="geometry">
+           <rect>
+            <x>20</x>
+            <y>60</y>
+            <width>81</width>
+            <height>21</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">color: rgb(255, 255, 255);
+font: 600 italic 12pt &quot;Segoe UI&quot;;</string>
+          </property>
+          <property name="text">
+           <string>Username:</string>
+          </property>
+         </widget>
+         <widget class="QLineEdit" name="lineEditUserAccNumAdd">
+          <property name="geometry">
+           <rect>
+            <x>110</x>
+            <y>30</y>
+            <width>131</width>
+            <height>21</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">background-color: rgb(255, 255, 255);
+font: 900 10pt &quot;Segoe UI&quot;;
+color: rgb(0, 0, 0);</string>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_27">
+          <property name="geometry">
+           <rect>
+            <x>20</x>
+            <y>30</y>
+            <width>81</width>
+            <height>21</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">color: rgb(255, 255, 255);
+font: 600 italic 12pt &quot;Segoe UI&quot;;</string>
+          </property>
+          <property name="text">
+           <string>Acc Num:</string>
+          </property>
+         </widget>
+         <widget class="QLineEdit" name="lineEditUserPasswordAdd">
+          <property name="geometry">
+           <rect>
+            <x>110</x>
+            <y>90</y>
+            <width>131</width>
+            <height>21</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">background-color: rgb(255, 255, 255);
+font: 900 10pt &quot;Segoe UI&quot;;
+color: rgb(0, 0, 0);</string>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_28">
+          <property name="geometry">
+           <rect>
+            <x>20</x>
+            <y>90</y>
+            <width>81</width>
+            <height>21</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">color: rgb(255, 255, 255);
+font: 600 italic 12pt &quot;Segoe UI&quot;;</string>
+          </property>
+          <property name="text">
+           <string>Password:</string>
+          </property>
+         </widget>
+         <widget class="QLineEdit" name="lineEditUseFullNameAdd">
+          <property name="geometry">
+           <rect>
+            <x>110</x>
+            <y>120</y>
+            <width>131</width>
+            <height>21</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">background-color: rgb(255, 255, 255);
+font: 900 10pt &quot;Segoe UI&quot;;
+color: rgb(0, 0, 0);</string>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_29">
+          <property name="geometry">
+           <rect>
+            <x>20</x>
+            <y>120</y>
+            <width>81</width>
+            <height>21</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">color: rgb(255, 255, 255);
+font: 600 italic 12pt &quot;Segoe UI&quot;;</string>
+          </property>
+          <property name="text">
+           <string>Full Name:</string>
+          </property>
+         </widget>
+         <widget class="QLineEdit" name="lineEditUserAgeAdd">
+          <property name="geometry">
+           <rect>
+            <x>110</x>
+            <y>150</y>
+            <width>131</width>
+            <height>21</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">background-color: rgb(255, 255, 255);
+font: 900 10pt &quot;Segoe UI&quot;;
+color: rgb(0, 0, 0);</string>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_30">
+          <property name="geometry">
+           <rect>
+            <x>20</x>
+            <y>150</y>
+            <width>81</width>
+            <height>21</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">color: rgb(255, 255, 255);
+font: 600 italic 12pt &quot;Segoe UI&quot;;</string>
+          </property>
+          <property name="text">
+           <string>Age:</string>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_35">
+          <property name="geometry">
+           <rect>
+            <x>20</x>
+            <y>180</y>
+            <width>81</width>
+            <height>21</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">color: rgb(255, 255, 255);
+font: 600 italic 12pt &quot;Segoe UI&quot;;</string>
+          </property>
+          <property name="text">
+           <string>Email:</string>
+          </property>
+         </widget>
+         <widget class="QLineEdit" name="lineEditUserEmailAdd">
+          <property name="geometry">
+           <rect>
+            <x>110</x>
+            <y>180</y>
+            <width>131</width>
+            <height>21</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">background-color: rgb(255, 255, 255);
+font: 900 10pt &quot;Segoe UI&quot;;
+color: rgb(0, 0, 0);</string>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+        </widget>
+       </widget>
+       <widget class="QWidget" name="page_4">
+        <widget class="QGroupBox" name="groupBox_11">
+         <property name="geometry">
+          <rect>
+           <x>170</x>
+           <y>50</y>
+           <width>291</width>
+           <height>301</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">color: rgb(255, 255, 255);</string>
+         </property>
+         <property name="title">
+          <string>Update User</string>
+         </property>
+         <widget class="QPushButton" name="pbGetUpdateUserData">
+          <property name="geometry">
+           <rect>
+            <x>50</x>
+            <y>240</y>
+            <width>171</width>
+            <height>31</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">border-radius: 10px;  /* Adjust this value to control the curvature */
+    border: 2px solid #1E90FF;  /* Border color: Dodger Blue */
+background-color: rgb(255, 255, 255);
+    padding: 5px;  /* Adjust padding as needed */
+    font: 600 italic 12pt &quot;Segoe UI&quot;;  /* Font settings */
+    color: rgb(0, 0, 0);  /* Text color */</string>
+          </property>
+          <property name="text">
+           <string>Update User</string>
+          </property>
+         </widget>
+         <widget class="QLineEdit" name="lineEditUserUserNameUpdate">
+          <property name="geometry">
+           <rect>
+            <x>110</x>
+            <y>60</y>
+            <width>131</width>
+            <height>21</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">background-color: rgb(255, 255, 255);
+font: 900 10pt &quot;Segoe UI&quot;;
+color: rgb(0, 0, 0);</string>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_21">
+          <property name="geometry">
+           <rect>
+            <x>20</x>
+            <y>60</y>
+            <width>81</width>
+            <height>21</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">color: rgb(255, 255, 255);
+font: 600 italic 12pt &quot;Segoe UI&quot;;</string>
+          </property>
+          <property name="text">
+           <string>Username:</string>
+          </property>
+         </widget>
+         <widget class="QLineEdit" name="lineEditUserAccNumUpdate">
+          <property name="geometry">
+           <rect>
+            <x>110</x>
+            <y>30</y>
+            <width>131</width>
+            <height>21</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">background-color: rgb(255, 255, 255);
+font: 900 10pt &quot;Segoe UI&quot;;
+color: rgb(0, 0, 0);</string>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_22">
+          <property name="geometry">
+           <rect>
+            <x>20</x>
+            <y>30</y>
+            <width>81</width>
+            <height>21</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">color: rgb(255, 255, 255);
+font: 600 italic 12pt &quot;Segoe UI&quot;;</string>
+          </property>
+          <property name="text">
+           <string>Acc Num:</string>
+          </property>
+         </widget>
+         <widget class="QLineEdit" name="lineEditUserPasswordUpdate">
+          <property name="geometry">
+           <rect>
+            <x>110</x>
+            <y>90</y>
+            <width>131</width>
+            <height>21</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">background-color: rgb(255, 255, 255);
+font: 900 10pt &quot;Segoe UI&quot;;
+color: rgb(0, 0, 0);</string>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_23">
+          <property name="geometry">
+           <rect>
+            <x>20</x>
+            <y>90</y>
+            <width>81</width>
+            <height>21</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">color: rgb(255, 255, 255);
+font: 600 italic 12pt &quot;Segoe UI&quot;;</string>
+          </property>
+          <property name="text">
+           <string>Password:</string>
+          </property>
+         </widget>
+         <widget class="QLineEdit" name="lineEditUseFullNameUpdate">
+          <property name="geometry">
+           <rect>
+            <x>110</x>
+            <y>120</y>
+            <width>131</width>
+            <height>21</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">background-color: rgb(255, 255, 255);
+font: 900 10pt &quot;Segoe UI&quot;;
+color: rgb(0, 0, 0);</string>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_24">
+          <property name="geometry">
+           <rect>
+            <x>20</x>
+            <y>120</y>
+            <width>81</width>
+            <height>21</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">color: rgb(255, 255, 255);
+font: 600 italic 12pt &quot;Segoe UI&quot;;</string>
+          </property>
+          <property name="text">
+           <string>Full Name:</string>
+          </property>
+         </widget>
+         <widget class="QLineEdit" name="lineEditUserAgeUpdate">
+          <property name="geometry">
+           <rect>
+            <x>110</x>
+            <y>150</y>
+            <width>131</width>
+            <height>21</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">background-color: rgb(255, 255, 255);
+font: 900 10pt &quot;Segoe UI&quot;;
+color: rgb(0, 0, 0);</string>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_25">
+          <property name="geometry">
+           <rect>
+            <x>20</x>
+            <y>150</y>
+            <width>81</width>
+            <height>21</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">color: rgb(255, 255, 255);
+font: 600 italic 12pt &quot;Segoe UI&quot;;</string>
+          </property>
+          <property name="text">
+           <string>Age:</string>
+          </property>
+         </widget>
+         <widget class="QLineEdit" name="lineEditUserEmailUpdate">
+          <property name="geometry">
+           <rect>
+            <x>110</x>
+            <y>180</y>
+            <width>131</width>
+            <height>21</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">background-color: rgb(255, 255, 255);
+font: 900 10pt &quot;Segoe UI&quot;;
+color: rgb(0, 0, 0);</string>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_34">
+          <property name="geometry">
+           <rect>
+            <x>20</x>
+            <y>180</y>
+            <width>81</width>
+            <height>21</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">color: rgb(255, 255, 255);
+font: 600 italic 12pt &quot;Segoe UI&quot;;</string>
+          </property>
+          <property name="text">
+           <string>Email:</string>
+          </property>
+         </widget>
+        </widget>
+       </widget>
+       <widget class="QWidget" name="page_9">
+        <widget class="QGroupBox" name="groupBox_13">
+         <property name="geometry">
+          <rect>
+           <x>130</x>
+           <y>160</y>
+           <width>331</width>
+           <height>131</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">color: rgb(255, 255, 255);</string>
+         </property>
+         <property name="title">
+          <string>Delete User</string>
+         </property>
+         <widget class="QPushButton" name="pbGet_DeleteUser">
+          <property name="geometry">
+           <rect>
+            <x>80</x>
+            <y>80</y>
+            <width>191</width>
+            <height>31</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">border-radius: 10px;  /* Adjust this value to control the curvature */
+    border: 2px solid #1E90FF;  /* Border color: Dodger Blue */
+background-color: rgb(255, 255, 255);
+    padding: 5px;  /* Adjust padding as needed */
+    font: 600 italic 12pt &quot;Segoe UI&quot;;  /* Font settings */
+    color: rgb(0, 0, 0);  /* Text color */</string>
+          </property>
+          <property name="text">
+           <string>Delete User</string>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_31">
+          <property name="geometry">
+           <rect>
+            <x>30</x>
+            <y>40</y>
+            <width>131</width>
+            <height>21</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">color: rgb(255, 255, 255);
+font: 600 italic 12pt &quot;Segoe UI&quot;;</string>
+          </property>
+          <property name="text">
+           <string>Account Number:</string>
+          </property>
+         </widget>
+         <widget class="QLineEdit" name="acc_numberLineEditDeleteUser">
+          <property name="geometry">
+           <rect>
+            <x>170</x>
+            <y>40</y>
+            <width>111</width>
+            <height>22</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">background-color: rgb(255, 255, 255);
+font: 900 10pt &quot;Segoe UI&quot;;
+color: rgb(0, 0, 0);</string>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+        </widget>
+       </widget>
+      </widget>
+      <widget class="QPushButton" name="Pd_BackToAdminPage">
+       <property name="geometry">
+        <rect>
+         <x>30</x>
+         <y>20</y>
+         <width>171</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">border-radius: 10px;  /* Adjust this value to control the curvature */
+    border: 2px solid #1E90FF;  /* Border color: Dodger Blue */
+    padding: 5px;  /* Adjust padding as needed */
+background-color: rgb(255, 255, 255);
+    font: 600 italic 10pt &quot;Segoe UI&quot;;  /* Font settings */
+    color: rgb(0, 0, 0);  /* Text color */</string>
+       </property>
+       <property name="text">
+        <string>&lt; Back to Main Page</string>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QWidget" name="tab_3">
+      <attribute name="title">
+       <string>User</string>
+      </attribute>
+      <widget class="QStackedWidget" name="stackedWidgetUser">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>50</y>
+         <width>601</width>
+         <height>451</height>
+        </rect>
+       </property>
+       <property name="currentIndex">
+        <number>1</number>
+       </property>
+       <widget class="QWidget" name="page_10">
+        <widget class="QPushButton" name="pbGetAccNum">
+         <property name="geometry">
+          <rect>
+           <x>20</x>
+           <y>80</y>
+           <width>211</width>
+           <height>51</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">border-radius: 10px;  /* Adjust this value to control the curvature */
+    border: 2px solid #1E90FF;  /* Border color: Dodger Blue */
+background-color: rgb(255, 255, 255);
+    padding: 5px;  /* Adjust padding as needed */
+    font: 600 italic 12pt &quot;Segoe UI&quot;;  /* Font settings */
+    color: rgb(0, 0, 0);  /* Text color */</string>
+         </property>
+         <property name="text">
+          <string>Get Account Number</string>
+         </property>
+        </widget>
+        <widget class="QPushButton" name="pbGetBalnceUser">
+         <property name="geometry">
+          <rect>
+           <x>20</x>
+           <y>200</y>
+           <width>211</width>
+           <height>51</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">border-radius: 10px;  /* Adjust this value to control the curvature */
+    border: 2px solid #1E90FF;  /* Border color: Dodger Blue */
+background-color: rgb(255, 255, 255);
+    padding: 5px;  /* Adjust padding as needed */
+    font: 600 italic 12pt &quot;Segoe UI&quot;;  /* Font settings */
+    color: rgb(0, 0, 0);  /* Text color */</string>
+         </property>
+         <property name="text">
+          <string>Get Balance</string>
+         </property>
+        </widget>
+        <widget class="QPushButton" name="Pb_GetTranctionHistoryuser">
+         <property name="geometry">
+          <rect>
+           <x>20</x>
+           <y>310</y>
+           <width>211</width>
+           <height>51</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">border-radius: 10px;  /* Adjust this value to control the curvature */
+    border: 2px solid #1E90FF;  /* Border color: Dodger Blue */
+background-color: rgb(255, 255, 255);
+    padding: 5px;  /* Adjust padding as needed */
+    font: 600 italic 12pt &quot;Segoe UI&quot;;  /* Font settings */
+    color: rgb(0, 0, 0);  /* Text color */</string>
+         </property>
+         <property name="text">
+          <string>Get Transaction History</string>
+         </property>
+        </widget>
+        <widget class="QPushButton" name="Pb_widthdrawUser">
+         <property name="geometry">
+          <rect>
+           <x>350</x>
+           <y>80</y>
+           <width>211</width>
+           <height>51</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">border-radius: 10px;  /* Adjust this value to control the curvature */
+    border: 2px solid #1E90FF;  /* Border color: Dodger Blue */
+background-color: rgb(255, 255, 255);
+    padding: 5px;  /* Adjust padding as needed */
+    font: 600 italic 12pt &quot;Segoe UI&quot;;  /* Font settings */
+    color: rgb(0, 0, 0);  /* Text color */</string>
+         </property>
+         <property name="text">
+          <string>Withdraw</string>
+         </property>
+        </widget>
+        <widget class="QPushButton" name="Pb_DepositUser">
+         <property name="geometry">
+          <rect>
+           <x>350</x>
+           <y>200</y>
+           <width>211</width>
+           <height>51</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">border-radius: 10px;  /* Adjust this value to control the curvature */
+    border: 2px solid #1E90FF;  /* Border color: Dodger Blue */
+background-color: rgb(255, 255, 255);
+    padding: 5px;  /* Adjust padding as needed */
+    font: 600 italic 12pt &quot;Segoe UI&quot;;  /* Font settings */
+    color: rgb(0, 0, 0);  /* Text color */</string>
+         </property>
+         <property name="text">
+          <string>Deposit</string>
+         </property>
+        </widget>
+        <widget class="QPushButton" name="Pb_TransferMony">
+         <property name="geometry">
+          <rect>
+           <x>350</x>
+           <y>310</y>
+           <width>211</width>
+           <height>51</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">border-radius: 10px;  /* Adjust this value to control the curvature */
+    border: 2px solid #1E90FF;  /* Border color: Dodger Blue */
+background-color: rgb(255, 255, 255);
+    padding: 5px;  /* Adjust padding as needed */
+    font: 600 italic 12pt &quot;Segoe UI&quot;;  /* Font settings */
+    color: rgb(0, 0, 0);  /* Text color */</string>
+         </property>
+         <property name="text">
+          <string>Transfer Money</string>
+         </property>
+        </widget>
+       </widget>
+       <widget class="QWidget" name="page_12">
+        <widget class="QGroupBox" name="groupBox">
+         <property name="geometry">
+          <rect>
+           <x>130</x>
+           <y>120</y>
+           <width>301</width>
+           <height>131</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">color: rgb(255, 255, 255);</string>
+         </property>
+         <property name="title">
+          <string>Balance</string>
+         </property>
+         <widget class="QPushButton" name="pbGet_Balance">
+          <property name="geometry">
+           <rect>
+            <x>80</x>
+            <y>80</y>
+            <width>141</width>
+            <height>31</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">border-radius: 10px;  /* Adjust this value to control the curvature */
+    border: 2px solid #1E90FF;  /* Border color: Dodger Blue */
+background-color: rgb(255, 255, 255);
+    padding: 5px;  /* Adjust padding as needed */
+    font: 600 italic 12pt &quot;Segoe UI&quot;;  /* Font settings */
+    color: rgb(0, 0, 0);  /* Text color */</string>
+          </property>
+          <property name="text">
+           <string>Get_Balance</string>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_5">
+          <property name="geometry">
+           <rect>
+            <x>10</x>
+            <y>30</y>
+            <width>131</width>
+            <height>31</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">color: rgb(255, 255, 255);
+font: 600 italic 12pt &quot;Segoe UI&quot;;</string>
+          </property>
+          <property name="text">
+           <string>Account Number:</string>
+          </property>
+         </widget>
+         <widget class="QLineEdit" name="acc_numberLineEditBalance">
+          <property name="geometry">
+           <rect>
+            <x>150</x>
+            <y>30</y>
+            <width>131</width>
+            <height>31</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">background-color: rgb(255, 255, 255);
+font: 900 11pt &quot;Segoe UI&quot;;
+color: rgb(0, 0, 0);</string>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+        </widget>
+       </widget>
+       <widget class="QWidget" name="page_13">
+        <widget class="QGroupBox" name="groupBox_3">
+         <property name="geometry">
+          <rect>
+           <x>120</x>
+           <y>130</y>
+           <width>291</width>
+           <height>171</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">color: rgb(255, 255, 255);</string>
+         </property>
+         <property name="title">
+          <string>Transaction History</string>
+         </property>
+         <widget class="QPushButton" name="pbGet_TransactionHistory">
+          <property name="geometry">
+           <rect>
+            <x>20</x>
+            <y>110</y>
+            <width>241</width>
+            <height>31</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">border-radius: 10px;  /* Adjust this value to control the curvature */
+    border: 2px solid #1E90FF;  /* Border color: Dodger Blue */
+background-color: rgb(255, 255, 255);
+    padding: 5px;  /* Adjust padding as needed */
+    font: 600 italic 12pt &quot;Segoe UI&quot;;  /* Font settings */
+    color: rgb(0, 0, 0);  /* Text color */</string>
+          </property>
+          <property name="text">
+           <string>Get Transaction History</string>
+          </property>
+         </widget>
+         <widget class="QLineEdit" name="acc_numberLineEditHistory">
+          <property name="geometry">
+           <rect>
+            <x>150</x>
+            <y>31</y>
+            <width>131</width>
+            <height>31</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">background-color: rgb(255, 255, 255);
+font: 900 11pt &quot;Segoe UI&quot;;
+color: rgb(0, 0, 0);</string>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_8">
+          <property name="geometry">
+           <rect>
+            <x>10</x>
+            <y>30</y>
+            <width>131</width>
+            <height>31</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">color: rgb(255, 255, 255);
+font: 600 italic 12pt &quot;Segoe UI&quot;;</string>
+          </property>
+          <property name="text">
+           <string>Account Number:</string>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_32">
+          <property name="geometry">
+           <rect>
+            <x>60</x>
+            <y>70</y>
+            <width>51</width>
+            <height>21</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">color: rgb(255, 255, 255);
+font: 600 italic 12pt &quot;Segoe UI&quot;;</string>
+          </property>
+          <property name="text">
+           <string>Count</string>
+          </property>
+         </widget>
+         <widget class="QLineEdit" name="Pd_countTransactionHistoryUser">
+          <property name="geometry">
+           <rect>
+            <x>130</x>
+            <y>70</y>
+            <width>131</width>
+            <height>22</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">background-color: rgb(255, 255, 255);
+font: 900 11pt &quot;Segoe UI&quot;;
+color: rgb(0, 0, 0);</string>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+        </widget>
+       </widget>
+       <widget class="QWidget" name="page_14">
+        <widget class="QGroupBox" name="groupBox_4">
+         <property name="geometry">
+          <rect>
+           <x>170</x>
+           <y>140</y>
+           <width>291</width>
+           <height>161</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">color: rgb(255, 255, 255);</string>
+         </property>
+         <property name="title">
+          <string>Withdraw</string>
+         </property>
+         <widget class="QLineEdit" name="acc_numberLineEditWithdraw">
+          <property name="geometry">
+           <rect>
+            <x>150</x>
+            <y>21</y>
+            <width>131</width>
+            <height>31</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">background-color: rgb(255, 255, 255);
+font: 900 11pt &quot;Segoe UI&quot;;
+color: rgb(0, 0, 0);</string>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_12">
+          <property name="geometry">
+           <rect>
+            <x>10</x>
+            <y>20</y>
+            <width>131</width>
+            <height>31</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">color: rgb(255, 255, 255);
+font: 600 italic 12pt &quot;Segoe UI&quot;;</string>
+          </property>
+          <property name="text">
+           <string>Account Number:</string>
+          </property>
+         </widget>
+         <widget class="QLineEdit" name="Amount_numberLineEditWithdraw">
+          <property name="geometry">
+           <rect>
+            <x>150</x>
+            <y>60</y>
+            <width>131</width>
+            <height>31</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">background-color: rgb(255, 255, 255);
+font: 900 11pt &quot;Segoe UI&quot;;
+color: rgb(0, 0, 0);</string>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_13">
+          <property name="geometry">
+           <rect>
+            <x>60</x>
+            <y>60</y>
+            <width>61</width>
+            <height>31</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">color: rgb(255, 255, 255);
+font: 600 italic 12pt &quot;Segoe UI&quot;;</string>
+          </property>
+          <property name="text">
+           <string>Amount:</string>
+          </property>
+         </widget>
+         <widget class="QPushButton" name="pbWithdraw">
+          <property name="geometry">
+           <rect>
+            <x>100</x>
+            <y>110</y>
+            <width>91</width>
+            <height>41</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">border-radius: 10px;  /* Adjust this value to control the curvature */
+    border: 2px solid #1E90FF;  /* Border color: Dodger Blue */
+background-color: rgb(255, 255, 255);
+    padding: 5px;  /* Adjust padding as needed */
+    font: 600 italic 12pt &quot;Segoe UI&quot;;  /* Font settings */
+    color: rgb(0, 0, 0);  /* Text color */</string>
+          </property>
+          <property name="text">
+           <string>Withdraw</string>
+          </property>
+         </widget>
+        </widget>
+       </widget>
+       <widget class="QWidget" name="page_15">
+        <widget class="QGroupBox" name="groupBox_5">
+         <property name="geometry">
+          <rect>
+           <x>160</x>
+           <y>130</y>
+           <width>291</width>
+           <height>161</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">color: rgb(255, 255, 255);</string>
+         </property>
+         <property name="title">
+          <string>Deposit</string>
+         </property>
+         <widget class="QLineEdit" name="acc_numberLineEditDeposit">
+          <property name="geometry">
+           <rect>
+            <x>150</x>
+            <y>21</y>
+            <width>131</width>
+            <height>31</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">background-color: rgb(255, 255, 255);
+font: 900 11pt &quot;Segoe UI&quot;;
+color: rgb(0, 0, 0);</string>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_14">
+          <property name="geometry">
+           <rect>
+            <x>10</x>
+            <y>20</y>
+            <width>131</width>
+            <height>31</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">color: rgb(255, 255, 255);
+font: 600 italic 12pt &quot;Segoe UI&quot;;</string>
+          </property>
+          <property name="text">
+           <string>Account Number:</string>
+          </property>
+         </widget>
+         <widget class="QLineEdit" name="Amount_numberLineEditDeposit">
+          <property name="geometry">
+           <rect>
+            <x>150</x>
+            <y>60</y>
+            <width>131</width>
+            <height>31</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">background-color: rgb(255, 255, 255);
+font: 900 11pt &quot;Segoe UI&quot;;
+color: rgb(0, 0, 0);</string>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_15">
+          <property name="geometry">
+           <rect>
+            <x>50</x>
+            <y>60</y>
+            <width>61</width>
+            <height>31</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">color: rgb(255, 255, 255);
+font: 600 italic 12pt &quot;Segoe UI&quot;;</string>
+          </property>
+          <property name="text">
+           <string>Amount:</string>
+          </property>
+         </widget>
+         <widget class="QPushButton" name="pbDeposit">
+          <property name="geometry">
+           <rect>
+            <x>100</x>
+            <y>110</y>
+            <width>91</width>
+            <height>41</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">border-radius: 10px;  /* Adjust this value to control the curvature */
+    border: 2px solid #1E90FF;  /* Border color: Dodger Blue */
+background-color: rgb(255, 255, 255);
+    padding: 5px;  /* Adjust padding as needed */
+    font: 600 italic 12pt &quot;Segoe UI&quot;;  /* Font settings */
+    color: rgb(0, 0, 0);  /* Text color */</string>
+          </property>
+          <property name="text">
+           <string>Deposit</string>
+          </property>
+         </widget>
+        </widget>
+       </widget>
+       <widget class="QWidget" name="page_16">
+        <widget class="QGroupBox" name="groupBox_6">
+         <property name="geometry">
+          <rect>
+           <x>160</x>
+           <y>100</y>
+           <width>291</width>
+           <height>201</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">color: rgb(255, 255, 255);</string>
+         </property>
+         <property name="title">
+          <string>Transfer</string>
+         </property>
+         <widget class="QLineEdit" name="acc_numberLineEditTransfer">
+          <property name="geometry">
+           <rect>
+            <x>150</x>
+            <y>20</y>
+            <width>131</width>
+            <height>31</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">background-color: rgb(255, 255, 255);
+font: 900 11pt &quot;Segoe UI&quot;;
+color: rgb(0, 0, 0);</string>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_16">
+          <property name="geometry">
+           <rect>
+            <x>10</x>
+            <y>20</y>
+            <width>131</width>
+            <height>31</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">color: rgb(255, 255, 255);
+font: 600 italic 12pt &quot;Segoe UI&quot;;</string>
+          </property>
+          <property name="text">
+           <string>Account Number:</string>
+          </property>
+         </widget>
+         <widget class="QLineEdit" name="Amount_numberLineEditTransfer">
+          <property name="geometry">
+           <rect>
+            <x>150</x>
+            <y>100</y>
+            <width>131</width>
+            <height>31</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">background-color: rgb(255, 255, 255);
+font: 900 11pt &quot;Segoe UI&quot;;
+color: rgb(0, 0, 0);</string>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_17">
+          <property name="geometry">
+           <rect>
+            <x>50</x>
+            <y>100</y>
+            <width>61</width>
+            <height>31</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">color: rgb(255, 255, 255);
+font: 600 italic 12pt &quot;Segoe UI&quot;;</string>
+          </property>
+          <property name="text">
+           <string>Amount:</string>
+          </property>
+         </widget>
+         <widget class="QPushButton" name="pbTransfer">
+          <property name="geometry">
+           <rect>
+            <x>90</x>
+            <y>150</y>
+            <width>91</width>
+            <height>31</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">border-radius: 10px;  /* Adjust this value to control the curvature */
+    border: 2px solid #1E90FF;  /* Border color: Dodger Blue */
+background-color: rgb(255, 255, 255);
+    padding: 5px;  /* Adjust padding as needed */
+    font: 600 italic 12pt &quot;Segoe UI&quot;;  /* Font settings */
+    color: rgb(0, 0, 0);  /* Text color */</string>
+          </property>
+          <property name="text">
+           <string>Transfer</string>
+          </property>
+         </widget>
+         <widget class="QLineEdit" name="acc_numberLineEditHost">
+          <property name="geometry">
+           <rect>
+            <x>150</x>
+            <y>60</y>
+            <width>131</width>
+            <height>31</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">background-color: rgb(255, 255, 255);
+font: 900 11pt &quot;Segoe UI&quot;;
+color: rgb(0, 0, 0);</string>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_18">
+          <property name="geometry">
+           <rect>
+            <x>10</x>
+            <y>60</y>
+            <width>131</width>
+            <height>31</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">color: rgb(255, 255, 255);
+font: 600 italic 12pt &quot;Segoe UI&quot;;</string>
+          </property>
+          <property name="text">
+           <string> Host Acc Number:</string>
+          </property>
+         </widget>
+        </widget>
+       </widget>
+      </widget>
+      <widget class="QPushButton" name="Pd_BackToUserPage">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>10</y>
+         <width>171</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">border-radius: 10px;  /* Adjust this value to control the curvature */
+    border: 2px solid #1E90FF;  /* Border color: Dodger Blue */
+    padding: 5px;  /* Adjust padding as needed */
+background-color: rgb(255, 255, 255);
+    font: 600 italic 10pt &quot;Segoe UI&quot;;  /* Font settings */
+    color: rgb(0, 0, 0);  /* Text color */</string>
+       </property>
+       <property name="text">
+        <string>&lt; Back to Main Page</string>
+       </property>
+      </widget>
+     </widget>
+    </widget>
+    <widget class="QPushButton" name="pbLogout">
+     <property name="geometry">
+      <rect>
+       <x>250</x>
+       <y>580</y>
+       <width>161</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border-radius: 10px;  /* Adjust this value to control the curvature */
+    border: 2px solid #1E90FF;  /* Border color: Dodger Blue */
+background-color: rgb(255, 255, 255);
+    padding: 5px;  /* Adjust padding as needed */
+    font: 600 italic 12pt &quot;Segoe UI&quot;;  /* Font settings */
+    color: rgb(0, 0, 0);  /* Text color */</string>
+     </property>
+     <property name="text">
+      <string>Logout</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pbHelp">
+     <property name="geometry">
+      <rect>
+       <x>450</x>
+       <y>580</y>
+       <width>171</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border-radius: 10px;  /* Adjust this value to control the curvature */
+    border: 2px solid #1E90FF;  /* Border color: Dodger Blue */
+background-color: rgb(255, 255, 255);
+    padding: 5px;  /* Adjust padding as needed */
+    font: 600 italic 12pt &quot;Segoe UI&quot;;  /* Font settings */
+    color: rgb(0, 0, 0);  /* Text color */</string>
+     </property>
+     <property name="text">
+      <string>Help</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pbExitFromSystem">
+     <property name="geometry">
+      <rect>
+       <x>60</x>
+       <y>580</y>
+       <width>161</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border-radius: 10px;  /* Adjust this value to control the curvature */
+    border: 2px solid #1E90FF;  /* Border color: Dodger Blue */
+background-color: rgb(255, 255, 255);
+    padding: 5px;  /* Adjust padding as needed */
+    font: 600 italic 12pt &quot;Segoe UI&quot;;  /* Font settings */
+    color: rgb(0, 0, 0);  /* Text color */</string>
+     </property>
+     <property name="text">
+      <string>Exit</string>
+     </property>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>690</width>
+     <height>22</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

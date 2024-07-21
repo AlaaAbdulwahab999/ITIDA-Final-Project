@@ -1,0 +1,11 @@
+debug/AdminHandler.o
+debug/DataBaseHandler.o
+debug/MyServer.o
+debug/MyServerHandler.o
+debug/UserHandler.o
+debug/main.o
+debug/moc_AdminHandler.o
+debug/moc_DataBaseHandler.o
+debug/moc_MyServer.o
+debug/moc_MyServerHandler.o
+debug/moc_UserHandler.o
