@@ -107,8 +107,8 @@ private:
     // get the transaction array for the specified account number
     QJsonArray getTransactionArray(const QString& accountNumber);
 
-    QString loginFile = "E:\\Project_ITIDA\\DataBase\\Login.json";
-    QString transactionFile = "E:\\Project_ITIDA\\DataBase\\Transaction.json";
+    QString loginFile = "..\\..\\..\\DataBase\\Login.json";
+    QString transactionFile = "..\\..\\..\\DataBase\\Transaction.json";
 };
 
 #endif // DATABASEHANDLER_H

@@ -82,9 +82,10 @@ private:
     QString role = "";      // Role of the user ( admin, user)
     QString Email = "";     // Email address of the user
     // Path to batch script
-    QString batchFilePath = "E:\\Project_ITIDA\\Server\\send_email.bat";
+    QString batchFilePath = "..\\..\\send_email.bat";
     // Path to the log file
-    QString Log_file = "E:\\Project_ITIDA\\Server\\Request.log";
+    QString Log_file = "..\\..\\Request.log";
+
 
 };
 
