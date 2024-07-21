@@ -12,3 +12,11 @@ The Bank System is a client-server application designed to manage banking operat
  ##### • Update user data
  ##### • Delete users
  ##### • View entire bank database
+
+### User Role
+##### • View account number
+##### • Check balance
+##### • View transaction history
+##### • Deposit money
+##### • Withdraw money
+##### • Transfer money
