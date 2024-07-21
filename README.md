@@ -31,6 +31,6 @@ The system follows a client-server architecture. The client application is a GUI
 <<<<<<< HEAD
 
 ## Sequence Diagram
-![Bank System Sequence Diagram](E:\Project_ITIDA\ITIDA-Final-Project\Diagram\Sequance Diagram\Complete sequance diagram.png)
+![Bank System Sequence Diagram](Completesequancediagram.png)
 =======
 >>>>>>> a0d54ff08b62a64581ef1faeca8556a54fb58b58
