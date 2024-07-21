@@ -87,17 +87,22 @@ The system follows a client-server architecture:
 
 ### Photos
 1- start the application 
+
 ![Bank1](https://github.com/user-attachments/assets/c93ca596-1dfb-4fdb-9db0-44f2111b2e30)
 
 2- Enter ip and port to connect to the server
+
 ![Connection](https://github.com/user-attachments/assets/74de74be-6042-47d5-970e-368ba8864e7e)
 
 3- Login as User or Admin
+
 ![login](https://github.com/user-attachments/assets/d5707e14-dc91-40d0-bed7-dfe844d74bb1)
 
 4- Admin Features
+
 ![Admin](https://github.com/user-attachments/assets/8c58950d-c5e4-49b2-b3fc-c2023787a1d9)
 
 5- User Features 
+
 ![user](https://github.com/user-attachments/assets/e58cd924-efa3-4294-8cd3-9ea279993d4f)
 
