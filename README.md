@@ -20,3 +20,6 @@ The Bank System is a client-server application designed to manage banking operat
 #### • Deposit money
 #### • Withdraw money
 #### • Transfer money
+
+## Architecture
+The system follows a client-server architecture. The client application is a GUI application built with Qt/C++, while the server application is a console application handling multiple client requests using threads. The server uses JSON files for user data and logging.
