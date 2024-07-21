@@ -25,11 +25,11 @@ The Bank System is a client-server application designed to manage banking operat
 ## Architecture
 The system follows a client-server architecture. The client application is a GUI application built with Qt/C++, while the server application is a console application handling multiple client requests using threads. The server uses JSON files for user data and logging.
 
-## Sequence Diagram
-![Bank System Sequence Diagram](Diagram\Sequance-Diagram\Complete-sequance-diagram.png)
-
 ## Class Diagram
-![Bank System Class Diagram](Diagram\Class_Diagram\complete-class-diagram.png)
+![complete-class-diagram](https://github.com/user-attachments/assets/33d45f23-4b43-4d3d-b202-3298149f957f)
+
+## Sequence Diagram
+![Complete-sequance-diagram](https://github.com/user-attachments/assets/369b1e28-eec1-44e5-8d42-eb4467f3dfb5)
 
 ## State Diagram
-![Bank System State Diagram](Diagram\State-Diagram\Complete-state-diagram.png)
+![Complete-state-diagram](https://github.com/user-attachments/assets/520d8919-5f60-4550-bf82-87248b69873c)
