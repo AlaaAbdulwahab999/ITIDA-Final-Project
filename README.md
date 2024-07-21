@@ -1,10 +1,6 @@
+
 # ITIDA-Final-Project
 
-<<<<<<< HEAD
-# ITIDA-Final-Project
-
-=======
->>>>>>> a0d54ff08b62a64581ef1faeca8556a54fb58b58
 # Bank System
 ## Overview
 The Bank System is a client-server application designed to manage banking operations. It supports both admin and user roles, providing different functionalities based on the role of the logged-in user. The system handles multiple client requests via sockets and threads, encrypts requests, and includes logging, service integration, and email responses.
@@ -28,13 +24,12 @@ The Bank System is a client-server application designed to manage banking operat
 
 ## Architecture
 The system follows a client-server architecture. The client application is a GUI application built with Qt/C++, while the server application is a console application handling multiple client requests using threads. The server uses JSON files for user data and logging.
-<<<<<<< HEAD
 
 ## Sequence Diagram
-![Bank System Sequence Diagram](Completesequancediagram.png)
+![Bank System Sequence Diagram](Diagram\Sequance-Diagram\Complete-sequance-diagram.png)
+
 ## Class Diagram
-![Bank System Class Diagram](Completeclassdiagram.png)
+![Bank System Class Diagram](Diagram\Class_Diagram\complete-class-diagram.png)
+
 ## State Diagram
-![Bank System State Diagram](Bank Systemstatediagram.png)
-=======
->>>>>>> a0d54ff08b62a64581ef1faeca8556a54fb58b58
+![Bank System State Diagram](Diagram\State-Diagram\Complete-state-diagram.png)
