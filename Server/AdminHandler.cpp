@@ -111,8 +111,8 @@ void AdminHandler::handleCreateNewUser(QJsonObject &requestData)
         message = "Failed to create user: Invalid account number. Please enter a numeric account number.";
         break;
     case UserCreationStatus::UserAlreadyExists:
-        // Set an error message if the account number or username already exists
-        message = "Failed to create user: Account number or username already exists.";
+        // Set an error message if the username already exists
+        message = "Failed to create user:  username already exists.";
         break;
     }
 

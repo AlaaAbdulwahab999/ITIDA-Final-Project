@@ -247,7 +247,15 @@ QJsonArray DataBaseHandler::getTransactionArray(const QString& accountNumber)
     // Return an empty QJsonArray if no matching account number was found
     return QJsonArray();
 }
-
+QString DataBaseHandler::generateRandomAccountNumber()
+{
+    QString accountNumber;
+    do
+    {
+        accountNumber = QString::number(QRandomGenerator::global()->bounded(100000, 999999));
+    } while (accountNumberExists(accountNumber));
+    return accountNumber;
+}
 
 // Retrieves a specified number of recent transactions for a given account
 QJsonObject DataBaseHandler::getTransactionHistory(const QString& accountNumber, int count)
@@ -301,7 +309,7 @@ UserCreationStatus DataBaseHandler::createNewUser(QJsonObject userData)
     // Read the existing users from the login file
     QJsonArray users = readJsonArrayFromFile(loginFile);
 
-    QString accountNumber = userData["accountNumber"].toString();
+    QString accountNumber = generateRandomAccountNumber();
     QString username = userData["username"].toString();
 
     // Check if the account number is valid (contains only digits)
@@ -309,14 +317,16 @@ UserCreationStatus DataBaseHandler::createNewUser(QJsonObject userData)
         return UserCreationStatus::InvalidAccountNumber;
     }
 
-    // Check if a user with the same account number or username already exists
+    // Check if a user with the same username already exists
     for (const QJsonValue& value : users) {
         QJsonObject user = value.toObject();
-        if (user["accountNumber"].toString() == accountNumber ||
-            user["username"].toString() == username) {
+        if (user["username"].toString() == username) {
             return UserCreationStatus::UserAlreadyExists;
         }
     }
+
+    // Add the account number to the user data
+    userData["accountNumber"] = accountNumber;
 
     // Set default values for the new user
     userData["balance"] = 0;  // Initial balance
@@ -344,6 +354,7 @@ UserCreationStatus DataBaseHandler::createNewUser(QJsonObject userData)
 
     return UserCreationStatus::Success; // Indicate successful user creation
 }
+
 
 
 // Updates user information for a given account number with the new data provided
@@ -479,6 +490,7 @@ bool DataBaseHandler::withdrawAmount(const QString& accountNumber, double amount
     // Process the withdrawal transaction
     return makeTransaction(accountNumber, -amount);
 }
+
 
 // Deposits a specified amount into the account associated with the given account number
 bool DataBaseHandler::depositAmount(const QString& accountNumber, double amount)

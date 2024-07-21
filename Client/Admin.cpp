@@ -102,7 +102,7 @@ void Admin::deleteUser(const QString &Acc_Number)
 }
 
 // function to add a user with given details
-void Admin::addUser(const QString &username, const QString &password, const QString &fullName, const QString &accountNumber, const QString &age, const QString& UserEmail)
+void Admin::addUser(const QString &username, const QString &password, const QString &fullName, const QString &age, const QString& UserEmail)
 {
     // Create JSON request object
     QJsonObject requestObject;
@@ -113,7 +113,6 @@ void Admin::addUser(const QString &username, const QString &password, const QStr
     dataObject["username"] = username;
     dataObject["password"] = password;
     dataObject["fullname"] = fullName;
-    dataObject["accountNumber"] = accountNumber;
     dataObject["age"] = age;
     dataObject["email"] = UserEmail;
     requestObject["data"] = dataObject;

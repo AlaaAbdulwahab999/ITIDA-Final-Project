@@ -125,3 +125,91 @@
 [2024-07-21 19:26:01] Deposit of 700 to account 124679 successful. New balance: 700
 [2024-07-21 19:26:35] Received request from client => 792 => Request Type: GetHistory, Client Username: Aya
 [2024-07-21 19:26:39] Received request from client => 792 => Request Type: GetHistory, Client Username: Aya
+[2024-07-22 15:39:07] Received request from client => 780 => Request Type: Login, Client Username: Asmaa
+[2024-07-22 15:39:09] Received request from client => 780 => Request Type: GetAccountNumber, Client Username: Asmaa
+[2024-07-22 15:39:19] Received request from client => 780 => Request Type: GetBalance, Client Username: Asmaa
+[2024-07-22 15:39:32] Received request from client => 780 => Request Type: GetBalance, Client Username: Asmaa
+[2024-07-22 15:39:34] Received request from client => 780 => Request Type: GetBalance, Client Username: Asmaa
+[2024-07-22 15:39:40] Received request from client => 780 => Request Type: GetHistory, Client Username: Asmaa
+[2024-07-22 15:39:48] Received request from client => 780 => Request Type: Withdraw, Client Username: Asmaa
+[2024-07-22 15:39:48] Withdrawal of 500 from account 123456 successful. New balance: 200
+[2024-07-22 15:40:01] Received request from client => 780 => Request Type: Deposit, Client Username: Asmaa
+[2024-07-22 15:40:01] Deposit of 10000 to account 123456 successful. New balance: 10200
+[2024-07-22 15:40:14] Received request from client => 780 => Request Type: , Client Username: Asmaa
+[2024-07-22 15:40:17] Received request from client => 780 => Request Type: GetHistory, Client Username: Asmaa
+[2024-07-22 15:50:23] Received request from client => 940 => Request Type: Login, Client Username: Asmaa
+[2024-07-22 15:50:28] Received request from client => 940 => Request Type: GetBalance, Client Username: Asmaa
+[2024-07-22 15:51:26] Received request from client => 792 => Request Type: Login, Client Username: Asmaa
+[2024-07-22 15:51:31] Received request from client => 792 => Request Type: GetBalance, Client Username: Asmaa
+[2024-07-22 15:51:55] Received request from client => 792 => Request Type: Deposit, Client Username: Asmaa
+[2024-07-22 15:51:55] Deposit of 700 to account 123456 successful. New balance: 10900
+[2024-07-22 19:54:13] Received request from client => 788 => Request Type: Login, Client Username: Alaa
+[2024-07-22 20:33:52] Received request from client => 720 => Request Type: Login, Client Username: Asmaa
+[2024-07-22 20:38:30] Received request from client => 808 => Request Type: Login, Client Username: Asmaa
+[2024-07-22 20:39:37] Received request from client => 936 => Request Type: Login, Client Username: Alaa
+[2024-07-22 20:39:51] Received request from client => 936 => Request Type: Login, Client Username: Asmaa
+[2024-07-22 20:53:54] Received request from client => 784 => Request Type: Login, Client Username: Asmaa
+[2024-07-22 20:53:55] Received request from client => 784 => Request Type: GetAccountNumber, Client Username: Asmaa
+[2024-07-22 20:54:00] Received request from client => 784 => Request Type: GetBalance, Client Username: Asmaa
+[2024-07-22 20:54:19] Received request from client => 784 => Request Type: GetBalance, Client Username: Asmaa
+[2024-07-22 20:54:49] Received request from client => 784 => Request Type: GetHistory, Client Username: Asmaa
+[2024-07-22 20:55:14] Received request from client => 784 => Request Type: Withdraw, Client Username: Asmaa
+[2024-07-22 20:55:14] Withdrawal of 700 from account 123456 successful. New balance: 10200
+[2024-07-22 20:55:45] Received request from client => 784 => Request Type: , Client Username: Asmaa
+[2024-07-22 20:55:51] Received request from client => 784 => Request Type: Login, Client Username: Alaa
+[2024-07-22 20:55:57] Received request from client => 784 => Request Type: GetAccountNumberAdmin, Client Username: Alaa
+[2024-07-22 20:56:04] Received request from client => 784 => Request Type: GetBalanceAdmin, Client Username: Alaa
+[2024-07-22 20:56:11] Received request from client => 784 => Request Type: GetTransactionHistoryAdmin, Client Username: Alaa
+[2024-07-22 20:56:15] Received request from client => 784 => Request Type: ViewBankDataBase, Client Username: Alaa
+[2024-07-22 21:47:18] Received request from client => 756 => Request Type: Login, Client Username: Alaa
+[2024-07-22 21:47:53] Received request from client => 756 => Request Type: CreateNewUser, Client Username: Alaa
+[2024-07-22 21:51:31] Received request from client => 180 => Request Type: Login, Client Username: Alaa
+[2024-07-22 21:51:38] Received request from client => 180 => Request Type: CreateNewUser, Client Username: Alaa
+[2024-07-22 21:55:33] Received request from client => 800 => Request Type: Login, Client Username: Alaa
+[2024-07-22 21:55:42] Received request from client => 800 => Request Type: CreateNewUser, Client Username: Alaa
+[2024-07-21 22:02:28] Received request from client => 688 => Request Type: Login, Client Username: Asmaa
+[2024-07-21 22:02:44] Received request from client => 688 => Request Type: GetAccountNumber, Client Username: Asmaa
+[2024-07-21 22:02:55] Received request from client => 688 => Request Type: GetBalance, Client Username: Asmaa
+[2024-07-21 22:03:11] Received request from client => 688 => Request Type: GetHistory, Client Username: Asmaa
+[2024-07-21 22:03:43] Received request from client => 688 => Request Type: Deposit, Client Username: Asmaa
+[2024-07-21 22:03:43] Deposit of 400 to account 123456 successful. New balance: 10600
+[2024-07-21 22:04:16] Received request from client => 688 => Request Type: GetHistory, Client Username: Asmaa
+[2024-07-21 22:04:35] Received request from client => 688 => Request Type: Withdraw, Client Username: Asmaa
+[2024-07-21 22:04:35] Withdrawal of 400 from account 123456 successful. New balance: 10200
+[2024-07-21 22:05:30] Received request from client => 688 => Request Type: TransferAmount, Client Username: Asmaa
+[2024-07-21 22:05:30] Transfer of 1000 from account 123456 to account 124679 successful!
+[2024-07-21 22:05:50] Received request from client => 688 => Request Type: Exit, Client Username: Asmaa
+[2024-07-21 22:06:12] Received request from client => 1000 => Request Type: Login, Client Username: Alaa
+[2024-07-21 22:06:33] Received request from client => 1000 => Request Type: GetAccountNumberAdmin, Client Username: Alaa
+[2024-07-21 22:06:40] Received request from client => 1000 => Request Type: GetBalanceAdmin, Client Username: Alaa
+[2024-07-21 22:06:51] Received request from client => 1000 => Request Type: GetTransactionHistoryAdmin, Client Username: Alaa
+[2024-07-21 22:06:57] Received request from client => 1000 => Request Type: GetTransactionHistoryAdmin, Client Username: Alaa
+[2024-07-21 22:07:12] Received request from client => 1000 => Request Type: ViewBankDataBase, Client Username: Alaa
+[2024-07-21 22:07:53] Received request from client => 1000 => Request Type: CreateNewUser, Client Username: Alaa
+[2024-07-21 22:07:59] Received request from client => 1000 => Request Type: ViewBankDataBase, Client Username: Alaa
+[2024-07-21 22:08:58] Received request from client => 1000 => Request Type: UpdateUserData, Client Username: Alaa
+[2024-07-21 22:09:11] Received request from client => 1000 => Request Type: DeleteUser, Client Username: Alaa
+[2024-07-21 22:09:17] Received request from client => 1000 => Request Type: ViewBankDataBase, Client Username: Alaa
+[2024-07-21 22:09:32] Received request from client => 1000 => Request Type: Help, Client Username: Alaa
+[2024-07-21 22:12:40] Received request from client => 796 => Request Type: Login, Client Username: Asmaa
+[2024-07-21 22:12:58] Received request from client => 796 => Request Type: GetAccountNumber, Client Username: Asmaa
+[2024-07-21 22:13:09] Received request from client => 796 => Request Type: GetBalance, Client Username: Asmaa
+[2024-07-21 22:13:23] Received request from client => 796 => Request Type: GetHistory, Client Username: Asmaa
+[2024-07-21 22:13:56] Received request from client => 796 => Request Type: Deposit, Client Username: Asmaa
+[2024-07-21 22:13:56] Deposit of 1000 to account 123456 successful. New balance: 10200
+[2024-07-21 22:14:26] Received request from client => 796 => Request Type: Withdraw, Client Username: Asmaa
+[2024-07-21 22:14:26] Withdrawal of 1000 from account 123456 successful. New balance: 9200
+[2024-07-21 22:15:28] Received request from client => 796 => Request Type: TransferAmount, Client Username: Asmaa
+[2024-07-21 22:15:28] Transfer of 1000 from account 123456 to account 124679 successful!
+[2024-07-21 22:15:54] Received request from client => 796 => Request Type: Help, Client Username: Asmaa
+[2024-07-21 22:16:02] Received request from client => 796 => Request Type: Exit, Client Username: Asmaa
+[2024-07-21 22:16:24] Received request from client => 796 => Request Type: Login, Client Username: Alaa
+[2024-07-21 22:16:47] Received request from client => 796 => Request Type: GetAccountNumberAdmin, Client Username: Alaa
+[2024-07-21 22:16:57] Received request from client => 796 => Request Type: GetBalanceAdmin, Client Username: Alaa
+[2024-07-21 22:17:10] Received request from client => 796 => Request Type: GetTransactionHistoryAdmin, Client Username: Alaa
+[2024-07-21 22:17:14] Received request from client => 796 => Request Type: GetTransactionHistoryAdmin, Client Username: Alaa
+[2024-07-21 22:17:58] Received request from client => 796 => Request Type: CreateNewUser, Client Username: Alaa
+[2024-07-21 22:18:40] Received request from client => 796 => Request Type: UpdateUserData, Client Username: Alaa
+[2024-07-21 22:18:56] Received request from client => 796 => Request Type: DeleteUser, Client Username: Alaa
+[2024-07-21 22:19:02] Received request from client => 796 => Request Type: ViewBankDataBase, Client Username: Alaa
+[2024-07-21 22:19:13] Received request from client => 796 => Request Type: Help, Client Username: Alaa

@@ -93,8 +93,6 @@ public:
     QPushButton *pbGet_AddUser;
     QLineEdit *lineEditUserUserNameADD;
     QLabel *label_26;
-    QLineEdit *lineEditUserAccNumAdd;
-    QLabel *label_27;
     QLineEdit *lineEditUserPasswordAdd;
     QLabel *label_28;
     QLineEdit *lineEditUseFullNameAdd;
@@ -179,7 +177,7 @@ public:
     {
         if (MainWindow->objectName().isEmpty())
             MainWindow->setObjectName("MainWindow");
-        MainWindow->resize(690, 674);
+        MainWindow->resize(689, 677);
         centralwidget = new QWidget(MainWindow);
         centralwidget->setObjectName("centralwidget");
         Bank_System = new QGroupBox(centralwidget);
@@ -541,17 +539,6 @@ public:
         label_26->setObjectName("label_26");
         label_26->setGeometry(QRect(20, 60, 81, 21));
         label_26->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);\n"
-"font: 600 italic 12pt \"Segoe UI\";"));
-        lineEditUserAccNumAdd = new QLineEdit(groupBox_12);
-        lineEditUserAccNumAdd->setObjectName("lineEditUserAccNumAdd");
-        lineEditUserAccNumAdd->setGeometry(QRect(110, 30, 131, 21));
-        lineEditUserAccNumAdd->setStyleSheet(QString::fromUtf8("background-color: rgb(255, 255, 255);\n"
-"font: 900 10pt \"Segoe UI\";\n"
-"color: rgb(0, 0, 0);"));
-        label_27 = new QLabel(groupBox_12);
-        label_27->setObjectName("label_27");
-        label_27->setGeometry(QRect(20, 30, 81, 21));
-        label_27->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);\n"
 "font: 600 italic 12pt \"Segoe UI\";"));
         lineEditUserPasswordAdd = new QLineEdit(groupBox_12);
         lineEditUserPasswordAdd->setObjectName("lineEditUserPasswordAdd");
@@ -1009,7 +996,7 @@ public:
         MainWindow->setCentralWidget(centralwidget);
         menubar = new QMenuBar(MainWindow);
         menubar->setObjectName("menubar");
-        menubar->setGeometry(QRect(0, 0, 690, 22));
+        menubar->setGeometry(QRect(0, 0, 689, 22));
         MainWindow->setMenuBar(menubar);
         statusbar = new QStatusBar(MainWindow);
         statusbar->setObjectName("statusbar");
@@ -1017,10 +1004,10 @@ public:
 
         retranslateUi(MainWindow);
 
-        Bank_System_widget->setCurrentIndex(3);
+        Bank_System_widget->setCurrentIndex(2);
         stackedWidget->setCurrentIndex(0);
-        stackedWidgetAdmin->setCurrentIndex(1);
-        stackedWidgetUser->setCurrentIndex(1);
+        stackedWidgetAdmin->setCurrentIndex(4);
+        stackedWidgetUser->setCurrentIndex(3);
 
 
         QMetaObject::connectSlotsByName(MainWindow);
@@ -1070,7 +1057,6 @@ public:
         pbGet_AddUser->setText(QCoreApplication::translate("MainWindow", "Add User", nullptr));
         lineEditUserUserNameADD->setText(QString());
         label_26->setText(QCoreApplication::translate("MainWindow", "Username:", nullptr));
-        label_27->setText(QCoreApplication::translate("MainWindow", "Acc Num:", nullptr));
         label_28->setText(QCoreApplication::translate("MainWindow", "Password:", nullptr));
         label_29->setText(QCoreApplication::translate("MainWindow", "Full Name:", nullptr));
         label_30->setText(QCoreApplication::translate("MainWindow", "Age:", nullptr));

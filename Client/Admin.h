@@ -35,7 +35,7 @@ public:
     void deleteUser(const QString& accountNumber);
 
     // function to add a user with given details
-    void addUser(const QString& username, const QString& password, const QString& fullName, const QString& accountNumber, const QString& age, const QString& UserEmail);
+    void addUser(const QString& username, const QString& password, const QString& fullName, const QString& age, const QString& UserEmail);
 
     // function to update a user's details given their information
     void updateUser(const QString& username, const QString& password, const QString& fullName, const QString& accountNumber, const QString& age, const QString& UserEmail);

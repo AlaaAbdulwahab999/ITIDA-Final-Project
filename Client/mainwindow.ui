@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>690</width>
-    <height>674</height>
+    <width>689</width>
+    <height>677</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -45,7 +45,7 @@ background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 rgb
 color: rgb(0, 0, 0);</string>
      </property>
      <property name="currentIndex">
-      <number>3</number>
+      <number>2</number>
      </property>
      <widget class="QWidget" name="tab">
       <attribute name="title">
@@ -360,7 +360,7 @@ background-color: rgb(255, 255, 255);
         </rect>
        </property>
        <property name="currentIndex">
-        <number>1</number>
+        <number>4</number>
        </property>
        <widget class="QWidget" name="page_3">
         <widget class="QPushButton" name="pBGetUserAccuntNumberAdmin">
@@ -838,38 +838,6 @@ font: 600 italic 12pt &quot;Segoe UI&quot;;</string>
           </property>
           <property name="text">
            <string>Username:</string>
-          </property>
-         </widget>
-         <widget class="QLineEdit" name="lineEditUserAccNumAdd">
-          <property name="geometry">
-           <rect>
-            <x>110</x>
-            <y>30</y>
-            <width>131</width>
-            <height>21</height>
-           </rect>
-          </property>
-          <property name="styleSheet">
-           <string notr="true">background-color: rgb(255, 255, 255);
-font: 900 10pt &quot;Segoe UI&quot;;
-color: rgb(0, 0, 0);</string>
-          </property>
-         </widget>
-         <widget class="QLabel" name="label_27">
-          <property name="geometry">
-           <rect>
-            <x>20</x>
-            <y>30</y>
-            <width>81</width>
-            <height>21</height>
-           </rect>
-          </property>
-          <property name="styleSheet">
-           <string notr="true">color: rgb(255, 255, 255);
-font: 600 italic 12pt &quot;Segoe UI&quot;;</string>
-          </property>
-          <property name="text">
-           <string>Acc Num:</string>
           </property>
          </widget>
          <widget class="QLineEdit" name="lineEditUserPasswordAdd">
@@ -1350,7 +1318,7 @@ background-color: rgb(255, 255, 255);
         </rect>
        </property>
        <property name="currentIndex">
-        <number>1</number>
+        <number>3</number>
        </property>
        <widget class="QWidget" name="page_10">
         <widget class="QPushButton" name="pbGetAccNum">
@@ -2113,7 +2081,7 @@ background-color: rgb(255, 255, 255);
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>690</width>
+     <width>689</width>
      <height>22</height>
     </rect>
    </property>

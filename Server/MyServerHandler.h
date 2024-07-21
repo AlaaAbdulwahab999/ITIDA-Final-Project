@@ -87,6 +87,7 @@ private:
     QString Log_file = "..\\..\\Request.log";
 
 
+
 };
 
 #endif // MYSERVERHANDLER_H

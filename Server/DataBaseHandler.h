@@ -10,6 +10,7 @@
 #include <QJsonDocument>
 #include <QDate>
 #include <QVector>
+#include <QRandomGenerator>
 
 // Structure to represent a financial transaction
 struct Transaction
@@ -96,7 +97,8 @@ public:
     // Withdraws the specified amount from the given account number
     bool withdrawAmount(const QString& accountNumber, double amount);
 
-
+    // Generate a random 6-digit account number
+    QString generateRandomAccountNumber();
 private:
     // Reads a JSON array from the specified file
     QJsonArray readJsonArrayFromFile(const QString& fileName);
@@ -109,6 +111,8 @@ private:
 
     QString loginFile = "..\\..\\..\\DataBase\\Login.json";
     QString transactionFile = "..\\..\\..\\DataBase\\Transaction.json";
+
+
 };
 
 #endif // DATABASEHANDLER_H

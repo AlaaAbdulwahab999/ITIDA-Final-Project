@@ -249,7 +249,6 @@ void MainWindow::on_pbGet_AddUser_clicked()
     QString _username = ui->lineEditUserUserNameADD->text();
     QString password = ui->lineEditUserPasswordAdd->text();
     QString FullName=ui->lineEditUseFullNameAdd->text();
-    QString Acc_Number =ui->lineEditUserAccNumAdd->text();
     QString Age=ui->lineEditUserAgeAdd->text();
     QString UserEmail=ui->lineEditUserEmailAdd->text();
     if (username.isEmpty() || password.isEmpty())
@@ -257,7 +256,7 @@ void MainWindow::on_pbGet_AddUser_clicked()
         QMessageBox::warning(this, "Empty Faild", "Username or Password cannot be empty."); // Show login failed message
         return;
     }
-    Admin.addUser(_username,password,FullName,Acc_Number,Age,UserEmail);
+    Admin.addUser(_username,password,FullName,Age,UserEmail);
 }
 
 void MainWindow::on_pbGetUpdateUserData_clicked()
