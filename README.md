@@ -85,7 +85,7 @@ The system follows a client-server architecture:
 5. Perform banking operations based on the logged-in role.
 6. Log out and exit the application when done.
 
-### Photos
+### GUI Interface
 1- start the application 
 
 ![Bank1](https://github.com/user-attachments/assets/c93ca596-1dfb-4fdb-9db0-44f2111b2e30)
