@@ -163,7 +163,6 @@ void MyServerHandler::sendEmail(const QString &to, const QString &subject, const
 {
     QProcess process;
 
-
     // Prepare arguments
     QStringList arguments;
     arguments << to << subject << body;
@@ -197,11 +196,9 @@ void MyServerHandler::onReadyRead()
     QByteArray byteArray = socket->readAll();
     //decrypt the data by using key ->"Alaa"
     QString str = decryptMessage(byteArray,"Alaa");
-
     //Extract the signature and compare it to the one has been sent
     QByteArray hashed = QCryptographicHash::hash("March", QCryptographicHash::Sha256);
     QByteArray signature = hashed.toHex();
-
     //Check the signature
     if(str.contains(signature))
     {
@@ -336,7 +333,8 @@ void MyServerHandler::handleLogin(const QJsonObject &requestData)
 
     // Attempt to log in using the provided username and password
     bool success = dbHandler->login(username, password);
-    if (success) {
+    if (success)
+    {
         // Login successful
         this->username = username;  // Store the username in the class member
         this->Email = dbHandler->getUserEmail(username);  // Retrieve and store the user's email

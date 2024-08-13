@@ -36,3 +36,9 @@ void MyServer::incomingConnection(qintptr handle)
     // Start the serverHandler thread to handle client data
     serverHandler->start();
 }
+
+MyServer &MyServer::getInstance()
+{
+    static MyServer instance;
+    return instance;
+}

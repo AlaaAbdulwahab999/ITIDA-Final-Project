@@ -96,7 +96,6 @@ bool DataBaseHandler::accountNumberExists(const QString& accountNumber)
     return !userObject.isEmpty();
 }
 
-
 // Function to verify user login
 bool DataBaseHandler::login(const QString& username, const QString& password)
 {
@@ -247,15 +246,24 @@ QJsonArray DataBaseHandler::getTransactionArray(const QString& accountNumber)
     // Return an empty QJsonArray if no matching account number was found
     return QJsonArray();
 }
+
 QString DataBaseHandler::generateRandomAccountNumber()
 {
-    QString accountNumber;
+    QString accountNumber;  // Declare a QString variable to store the generated account number
+
+    // Loop until a unique account number is generated
     do
     {
+        // Generate a random number between 100000 and 999999 (inclusive) and convert it to QString
         accountNumber = QString::number(QRandomGenerator::global()->bounded(100000, 999999));
-    } while (accountNumberExists(accountNumber));
+    }
+    // Continue looping as long as the generated account number already exists
+    while (accountNumberExists(accountNumber));
+
+    // Return the unique account number
     return accountNumber;
 }
+
 
 // Retrieves a specified number of recent transactions for a given account
 QJsonObject DataBaseHandler::getTransactionHistory(const QString& accountNumber, int count)

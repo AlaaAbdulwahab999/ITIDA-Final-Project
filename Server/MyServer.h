@@ -15,6 +15,9 @@ public:
 
     // Constructor for MyServer class
     explicit MyServer(QObject *parent = nullptr);
+    MyServer(const MyServer &obj) = delete;         // copy constructor
+    MyServer &operator=(MyServer &obj) = delete;    // move constructor
+    static MyServer &getInstance();
 
     // Function to start the server
     void StartServer();
